@@ -1,6 +1,8 @@
 ### VelamCCM
 Projet Paas Google Master CCM 2 - Velam 
 
+----------------------------------------------------------------------------------------------
+
 ## Budgétisation : 
 
 ### Tarifs pour le google Scheduler : 
@@ -52,15 +54,30 @@ On utilise l'emplacement "Europe-west9 - Paris" qui sera facturé 0,023$ par moi
 Gratuit. Selon la documentation GCP concernant les pub/sub , les 10 premiers Gio de débit de message sont gratuit chaque début de mois. 
 
 ----------------------------------------------------------------------------------------------
+### Authentification : 
 
-### Creation du Scheduler CRON : 
+```gcloud auth login```
 
+### Creation d'un pub/sub : 
+
+Nous allons ici creer un pub/sub nommé velam-topic en utilisant cette commande : 
+
+``` bash
+gcloud pubsub topics create velam-topic 
+gcloud pubsub subscriptions create my-sub --topic=velam-topic
+```
 
 ### Creation du Bucket : 
 
+On va ensuite créé un bucket où l'on va stocker les fichiers JSON récupérer depuis l'API JCDecaux : 
+
+```bash
+gcloud bucket create velam_bucket
+```
 
 ### Creation de la google Function : 
 
+### Creation du Scheduler CRON : 
 
 -----------------------------------------------------------------------------------------------
 

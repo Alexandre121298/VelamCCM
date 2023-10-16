@@ -72,7 +72,7 @@ gcloud pubsub subscriptions create my-sub --topic=velam-topic
 On va ensuite créé un bucket où l'on va stocker les fichiers JSON récupérer depuis l'API JCDecaux : 
 
 ```bash
-gcloud bucket create velam_bucket
+gcloud storage buckets create gs://velam_bucket --project=velamccm --location=europe-west9
 ```
 
 ### Creation de la google Function : 

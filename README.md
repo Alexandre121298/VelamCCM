@@ -93,7 +93,7 @@ source etant le dossier contenant la fonction javascript
 ### Creation du Scheduler CRON : 
 
 ```bash
-gcloud scheduler jobs create pubsub velamCronJob --schedule "15 * * * *" --topic velam-topic --message-body "run" --description "My scheduled job" --location=europe-west3
+gcloud scheduler jobs create pubsub velamCronJob --schedule "*/15 * * * *" --topic velam-topic --message-body "run" --description "My scheduled job" --location=europe-west3
 ```
 
 -----------------------------------------------------------------------------------------------

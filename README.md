@@ -77,6 +77,17 @@ gcloud storage buckets create gs://velam_bucket --project=velamccm --location=eu
 
 ### Creation de la google Function : 
 
+```
+gcloud functions deploy myCloudFunction \
+--gen2 \
+--runtime=nodejs18 \
+--region=europe-west9 \
+--source=. \
+--entry-point=myCloudFunction \
+--trigger-http \
+--allow-unauthenticated
+```
+
 ### Creation du Scheduler CRON : 
 
 -----------------------------------------------------------------------------------------------

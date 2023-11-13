@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "velamccm",
+  "private_key_id": "217f6a9ff6d89b28862b0db423b73f6d6e138439",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCzr29+yM8Z63lj\ngGVPLH65tsQN78tqqOwWPGkZmRpoeMGjMETj3jGLOhB+ZtfWePY6z6gu5NVRc8jT\nLVl9c4FXir5Pjox0A6jFgQMor+x/7+KEv4OMs8s0ZAplAcBcjb5gHB7hEg756xxL\nIeVQJxPdvOj3cBCTMiwRhmfcp9DdXachiQnoof+Z5kxqbgjLAP83hyOIr1B9QX/R\nE2ozg7AaLzSjd7YCSPsOWWprwlNjcQp6eXK50sl2AXXScapI1Nz6fO8BDyC0GmOb\nJnMIZM+M4hDis5os92blQB7odq40URTRyBSqUPMVXnM7x9/vVqM9Z4QZ6qMkUL7P\nvJLHw0VPAgMBAAECggEASboJswldJMMAL0oPB5H3u2bZAejq26xNFoCaFTVDZytp\nNHbJRYA1bu2Xt+2l0SwXyCDNXtRpDL9H3xJj/jwHDa7xkH4qdi3MMaHSdH7euM3q\ncVKNfQ2GqswDkddKoQ9N1myjZPE+cOA93zwctasbFSf+pQx32JXFDDnMYvb+ld03\nwehux52GE7pq7J8N2vH5UrDDeOR+AwAF3bCZxngmJmwvQG3Q20X3/YI71+A5xEYs\nKT+bH+86fltsSY/LSL9esbu5fqHTdkP8kBeJGeXqBQeeRtOc08mB8cDJiSwVqvOX\nZK2i4NuYuBLmthzJJlzOVJRVgSM1Jkb11qdZpFuIQQKBgQDijqU0keDsq4HvnMqc\ny4L8Rs0kmMzglWiru591fLu+V2N1qEi0NnAOP5pMzAZcMP9nUjGQTymcWVOmvpU8\nD/Qm3bYe5BQv3LSn1YeedIjVjYo+OwJQ4T0r0DUHuenO1t1+25TzOQKFdeQUtWB2\n3+RkLSeyARmVNE6HEQElWbiYDwKBgQDLCWddq78mKM6vqnAjKiEsfATYlEEFKC29\nSmndbVupZx09uJg+gBLozfuZJ9Zqc7gO3RflFi5TLCs+hlDJXMRdqQcBNuVIHHdV\nP9Vqr61Fkr3GfmBaxCEvAORP/k0jFMNdmaeW4LOAldof1chRUhF7eDPON8AI2CyP\n4E7Fl+s+wQKBgHNfLOYue5pKZKr+73cVdCjAbWt7nKmprFn3++Y6lOkDW5TpE80i\nA8JdxVfidkKweP/GrZLNnWUPYDgDyb+CaFT6huoIP/d3r0/gv2WD9sK5h3LVXgKO\nETakmrzKgjRg2v7lF18c4xnPxUx+aRdgQNB65kIRqVOABZVmpWy92fElAoGALHXH\ns8RbHDENaXwqCBk+oG4b5Y05W7a7pVq5Keq7irHwvkZA2FbVTTNl59jIZBEo+eBC\nTkD4LfBbG9rvr9hni5bq2MI7nPnWy80pn64OhFCoy+F6mgWeups4Y6ftHkR6r3Fp\nOGnGBN9Ln3MB5YTSHTZqKbsdixJDV9Inja9BrUECgYA66QHoPG/wAXzJ/kvIwpGj\nNPERow1FhrvxfqNb+t3NQM73FRa6hhRiHzAw5/hieuo37+LmQOtnebgogjWOyYqH\no9n4SLeeGbY2ee7egw+EYEFheQ/Vq/hQBZGg9pHHAwQpow+JD1XRYaWP6+jlBWMi\nSpnbI83HqBJOQsgvhs5JTw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-bucket@velamccm.iam.gserviceaccount.com",
+  "client_id": "114873067067455695495",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-bucket%40velamccm.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

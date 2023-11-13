@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="utils.js"></script>
+    <script>
+        function main(){
+            if(!checkBrowser){
+                return;
+            }
+            let registration = registerServiceWorker()
+            console.log(registration)
+        }
+    </script>
+</head>
+<body onload="main()">
+    <h1>Mon Beau WebPush</h1>
+    <button>Accepter les notifications</button>
+</body>
+</html>

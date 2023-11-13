@@ -2,21 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="utils.js"></script>
+    <title>WebPush</title>
+    <script type="text/javascript" src="utils.js"></script>
+    <script type="text/javascript" src="config.js"></script>
     <script>
-        function main(){
-            if(!checkBrowser){
+        function main() {
+            if(!checkBrowser()) {
                 return;
             }
-            let registration = registerServiceWorker()
-            console.log(registration)
+
+            if(Notification.permission === "granted"){
+                document.getElementById("msg").innerHTML = '<b>Notification deja activé</b>'
+            }else if(Notification.permission === "denied"){
+                document.getElementById("msg").innerHTML = '<b>Pas de notification</b>'
+            }
+
+            let sw_registration = registerServiceWorker();
+            console.log(sw_registration);
+        }
+
+        function notification(){
+            askPermission().then( function(){
+                document.getElementById("msg").innerHTML = '<b>Notification activé</b>'
+                subscribeUserToPush();
+            }).catch( function(){
+                document.getElementById("msg").innerHTML = '<b>Pas de notification</b>'
+            })
         }
     </script>
 </head>
 <body onload="main()">
     <h1>Mon Beau WebPush</h1>
-    <button>Accepter les notifications</button>
+    <div id="msg">
+        <button onclick="notification()">Accepter les notifications</button>
+    </div>
+    <form action="/send" method="post">
+        <input type="text" name="title" id="">
+        <input type="text" name="message" id="">
+        <input type="submit" value="submit">
+    </form>
 </body>
 </html>
